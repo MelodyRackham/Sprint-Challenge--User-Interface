@@ -162,6 +162,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px dashed black;
 }
 
@@ -321,6 +322,29 @@ header {
 .logo {
   margin-left: 50px;
 }
+.jumbo-about {
+  padding-bottom: 15px;
+}
+.boxA {
+  border: 1px white;
+  height: 25%;
+  width: 47%;
+  border-bottom: 1px dashed black;
+  padding-top: 20px;
+}
+.fourBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.boxA p {
+  padding-bottom: 15px;
+}
 
 footer {
   width: 100%;
@@ -334,6 +358,7 @@ footer nav {
   align-items: center;
   padding: 20px 2%;
   font-size: 14px;
+  margin-top: 20px;
 }
 
 footer nav a {
@@ -357,4 +382,14 @@ header nav a {
   text-decoration: none;
   padding: 10px;
   margin-top: 30px;
+}
+
+button {
+  font-size: 13px;
+  background: white;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  padding: 8px 40px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
