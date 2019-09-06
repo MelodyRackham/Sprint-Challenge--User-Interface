@@ -319,6 +319,12 @@ header {
   width: 96%;
   padding-bottom: 20px;
 }
+.contact {
+  height: 7%;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
 .logo {
   margin-left: 50px;
 }
@@ -392,4 +398,20 @@ button {
   padding: 8px 40px;
   border: 2px solid black;
   border-radius: 5px;
+}
+.threeCircles {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+.contact-page h1 {
+  font-size: 80px;
+  text-align: center;
+}
+.contact-page h2 {
+  font-size: 45px;
+  text-align: center;
 }
